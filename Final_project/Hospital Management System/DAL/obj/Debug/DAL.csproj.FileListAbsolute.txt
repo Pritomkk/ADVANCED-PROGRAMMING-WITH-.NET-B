@@ -1,0 +1,15 @@
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\DAL.dll.config
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\DAL.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\DAL.pdb
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\EntityFramework.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\EntityFramework.xml
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.pdb
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.Migrations.firstmigration.resources
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\desig\Desktop\Final_project\Hospital Management System\DAL\obj\Debug\DAL.Migrations.dep_Patient_andf_key.resources

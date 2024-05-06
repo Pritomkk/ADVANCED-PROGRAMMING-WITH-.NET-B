@@ -1,0 +1,14 @@
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\BLL.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\BLL.pdb
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\DAL.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\EntityFramework.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\DAL.pdb
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\DAL.dll.config
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\EntityFramework.xml
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\obj\Debug\BLL.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\obj\Debug\BLL.pdb
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\AutoMapper.dll
+C:\Users\desig\Desktop\Final_project\Hospital Management System\BLL\bin\Debug\AutoMapper.xml

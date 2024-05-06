@@ -1,0 +1,678 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\hospital management system\\controllers\\adminauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|solutionrelative:hospital management system\\controllers\\adminauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\hospital management system\\controllers\\admincrudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|solutionrelative:hospital management system\\controllers\\admincrudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\repository\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\tokenrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\hospital management system\\controllers\\adminoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|solutionrelative:hospital management system\\controllers\\adminoperationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\dal\\repository\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\departmentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\admin_auth_service\\admincrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_auth_service\\admincrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\admin_auth_service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_auth_service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\bll\\admin_operation_service\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_operation_service\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\repository\\doctorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\doctorrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\interfaces\\iadminop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iadminop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\repository\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\adminrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\bll\\admin_operation_service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_operation_service\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\bll\\admin_operation_service\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_operation_service\\billingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\bll\\admin_operation_service\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_operation_service\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\bll\\admin_operation_service\\paitentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_operation_service\\paitentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\bll\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\models\\h_m_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\h_m_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\dtos\\appionmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\appionmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\dal\\migrations\\202405010912100_dep_patient_andf_key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202405010912100_dep_patient_andf_key.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\dal\\migrations\\202405010327500_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\202405010327500_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\models\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\dal\\interfaces\\ilogintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\ilogintoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\iauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\admin_auth_service\\adminsignupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\admin_auth_service\\adminsignupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|c:\\users\\desig\\desktop\\final_project\\hospital management system\\hospital management system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|solutionrelative:hospital management system\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F67DF907-A236-423C-B998-E0A04C34951E}|DAL\\DAL.csproj|solutionrelative:dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\hospital management system\\check_auth\\logincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|solutionrelative:hospital management system\\check_auth\\logincheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\hospital management system\\models\\loginmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C89635-716D-497B-B806-CFC5F5EF145E}|Hospital Management System\\Hospital Management System.csproj|solutionrelative:hospital management system\\models\\loginmodel .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\bll\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE56BC2-DFBF-4B78-B141-FF06C1F5858B}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\DepartmentRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\DepartmentRepo.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\DepartmentRepo.cs",
+              "RelativeToolTip": "DAL\\Repository\\DepartmentRepo.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:31:31.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminOperationController.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Controllers\\AdminOperationController.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Controllers\\AdminOperationController.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Controllers\\AdminOperationController.cs",
+              "RelativeToolTip": "Hospital Management System\\Controllers\\AdminOperationController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T04:51:53.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminAuthController.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Controllers\\AdminAuthController.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Controllers\\AdminAuthController.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Controllers\\AdminAuthController.cs",
+              "RelativeToolTip": "Hospital Management System\\Controllers\\AdminAuthController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwB8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:08:50.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Doctor.cs",
+              "RelativeToolTip": "DAL\\Models\\Doctor.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T14:54:08.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminCrudController.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Controllers\\AdminCrudController.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Controllers\\AdminCrudController.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Controllers\\AdminCrudController.cs",
+              "RelativeToolTip": "Hospital Management System\\Controllers\\AdminCrudController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAwwD8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:37:46.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenRepo.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\TokenRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\TokenRepo.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\TokenRepo.cs",
+              "RelativeToolTip": "DAL\\Repository\\TokenRepo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:35:52.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorRepo.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\DoctorRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\DoctorRepo.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\DoctorRepo.cs",
+              "RelativeToolTip": "DAL\\Repository\\DoctorRepo.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:40:48.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\DoctorService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Operation_service\\DoctorService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\DoctorService.cs",
+              "RelativeToolTip": "BLL\\Admin_Operation_service\\DoctorService.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAowC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T04:27:48.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminCrudService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Auth_Service\\AdminCrudService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Auth_Service\\AdminCrudService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Auth_Service\\AdminCrudService.cs",
+              "RelativeToolTip": "BLL\\Admin_Auth_Service\\AdminCrudService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:21:49.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Auth_Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Auth_Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Auth_Service\\AuthService.cs",
+              "RelativeToolTip": "BLL\\Admin_Auth_Service\\AuthService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:07:41.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAcwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:38:51.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAdminOp.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\IAdminOp.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\IAdminOp.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\IAdminOp.cs",
+              "RelativeToolTip": "DAL\\interfaces\\IAdminOp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T04:38:29.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminRepo.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\AdminRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\AdminRepo.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\AdminRepo.cs",
+              "RelativeToolTip": "DAL\\Repository\\AdminRepo.cs",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAcwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T10:44:06.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Operation_service\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\DepartmentService.cs",
+              "RelativeToolTip": "BLL\\Admin_Operation_service\\DepartmentService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:26:42.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BillingService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\BillingService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Operation_service\\BillingService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\BillingService.cs",
+              "RelativeToolTip": "BLL\\Admin_Operation_service\\BillingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:46:29.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\InventoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Operation_service\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\InventoryService.cs",
+              "RelativeToolTip": "BLL\\Admin_Operation_service\\InventoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:46:05.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaitentService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\PaitentService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Operation_service\\PaitentService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Operation_service\\PaitentService.cs",
+              "RelativeToolTip": "BLL\\Admin_Operation_service\\PaitentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T17:44:48.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepartmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\DepartmentDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOS\\DepartmentDTO.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\DepartmentDTO.cs",
+              "RelativeToolTip": "BLL\\DTOS\\DepartmentDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:22:20.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "H_M_Context.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\H_M_Context.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\H_M_Context.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\H_M_Context.cs",
+              "RelativeToolTip": "DAL\\Models\\H_M_Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T17:24:01.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Department.cs",
+              "RelativeToolTip": "DAL\\Models\\Department.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvxEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:32:09.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Repository\\Repository.cs",
+              "RelativeToolTip": "DAL\\Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:27:48.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\IRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\IRepo.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\IRepo.cs",
+              "RelativeToolTip": "DAL\\interfaces\\IRepo.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:21:31.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "202405010912100_dep_Patient_andf_key.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Migrations\\202405010912100_dep_Patient_andf_key.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202405010912100_dep_Patient_andf_key.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Migrations\\202405010912100_dep_Patient_andf_key.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202405010912100_dep_Patient_andf_key.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:12:16.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppionmentDTO.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\AppionmentDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOS\\AppionmentDTO.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\AppionmentDTO.cs",
+              "RelativeToolTip": "BLL\\DTOS\\AppionmentDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:12:50.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "202405010327500_firstmigration.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Migrations\\202405010327500_firstmigration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\202405010327500_firstmigration.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Migrations\\202405010327500_firstmigration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\202405010327500_firstmigration.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwDMAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T03:27:55.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Patient.cs",
+              "RelativeToolTip": "DAL\\Models\\Patient.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAUwBsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T08:41:53.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Admin.cs",
+              "RelativeToolTip": "DAL\\Models\\Admin.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwDQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T14:24:40.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Appointment.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Appointment.cs",
+              "RelativeToolTip": "DAL\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T14:46:57.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TokenDTO.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\TokenDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOS\\TokenDTO.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\TokenDTO.cs",
+              "RelativeToolTip": "BLL\\DTOS\\TokenDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:04:59.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Token.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Token.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\Token.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Models\\Token.cs",
+              "RelativeToolTip": "DAL\\Models\\Token.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:26:18.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ILoginToken.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\ILoginToken.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\ILoginToken.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\ILoginToken.cs",
+              "RelativeToolTip": "DAL\\interfaces\\ILoginToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T04:15:53.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAuth.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\IAuth.cs",
+              "RelativeDocumentMoniker": "DAL\\interfaces\\IAuth.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\interfaces\\IAuth.cs",
+              "RelativeToolTip": "DAL\\interfaces\\IAuth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:19:36.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminSignUpService.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Auth_Service\\AdminSignUpService.cs",
+              "RelativeDocumentMoniker": "BLL\\Admin_Auth_Service\\AdminSignUpService.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\Admin_Auth_Service\\AdminSignUpService.cs",
+              "RelativeToolTip": "BLL\\Admin_Auth_Service\\AdminSignUpService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:36:30.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Web.config",
+              "RelativeDocumentMoniker": "Hospital Management System\\Web.config",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Web.config",
+              "RelativeToolTip": "Hospital Management System\\Web.config",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-01T03:26:29.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T13:13:49.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LogInCheck.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Check_Auth\\LogInCheck.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Check_Auth\\LogInCheck.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Check_Auth\\LogInCheck.cs",
+              "RelativeToolTip": "Hospital Management System\\Check_Auth\\LogInCheck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T15:25:33.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginModel .cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Models\\LoginModel .cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Models\\LoginModel .cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\Hospital Management System\\Models\\LoginModel .cs",
+              "RelativeToolTip": "Hospital Management System\\Models\\LoginModel .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T07:00:20.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DoctorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\DoctorDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOS\\DoctorDTO.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\DoctorDTO.cs",
+              "RelativeToolTip": "BLL\\DTOS\\DoctorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T20:03:57.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AdminDTO.cs",
+              "DocumentMoniker": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\AdminDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOS\\AdminDTO.cs",
+              "ToolTip": "C:\\Users\\desig\\Desktop\\Final_project\\Hospital Management System\\BLL\\DTOS\\AdminDTO.cs",
+              "RelativeToolTip": "BLL\\DTOS\\AdminDTO.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:56:18.474Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
