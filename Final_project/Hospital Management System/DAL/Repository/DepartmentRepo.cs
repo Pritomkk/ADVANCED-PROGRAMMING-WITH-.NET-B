@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repository
 {
-    internal class DepartmentRepo : Repository, IRepo<Department, int, Department>,IAdminOp<int,string,Department>
+    internal class DepartmentRepo :Repository, IRepo<Department, int, Department>, IAdminOp<int, string, Department>
     {
 
         public Department AddbyAdmin(string TokenKey, Department obj)
@@ -21,25 +21,19 @@ namespace DAL.Repository
 
                 if (adminEntity != null)
                 {
-                   
-                    Department objDepartment = new Department();
-                    objDepartment.AdminId = adminEntity.AdminId;  
-                    objDepartment.DepName = obj.DepName;  
-                    objDepartment.Date = DateTime.Now; 
-
-                    db.Departments.Add(objDepartment);
+                    
+                    obj.AdminId = adminEntity.AdminId;
+                    db.Departments.Add(obj);
                     db.SaveChanges();
                     return obj;
                 }
                 else
                 {
-                   
                     throw new Exception("Admin associated with the token not found.");
                 }
             }
             else
             {
-              
                 throw new Exception("Token not found.");
             }
         }
@@ -74,16 +68,19 @@ namespace DAL.Repository
             throw new NotImplementedException();
         }
 
-        public Department AddByAdminDep(int Depid,String TokeyKey,Department obj)
+        public Department dischargebyAdmin(int Type, Department obj)
         {
             throw new NotImplementedException();
         }
 
-        public Department updateOperation(int Depid, String TokeyKey, Department obj)
+        public Department AddByAdminDep(int Depid, string TokenKey, Department obj)
         {
             throw new NotImplementedException();
         }
 
-
+        public Department updateOperation(int Depid, string TokenKey, Department obj)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

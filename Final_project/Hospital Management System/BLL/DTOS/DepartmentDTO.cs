@@ -10,11 +10,10 @@ namespace BLL.DTOS
 {
      public class DepartmentDTO
     {
-        [Key]
+        
         public int DepId { get; set; }
 
         [Required]
-        [StringLength(50)]
         public string DepName { get; set; }
 
         [Required]

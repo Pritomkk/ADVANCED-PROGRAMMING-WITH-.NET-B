@@ -22,5 +22,7 @@ namespace BLL.DTOS
         public string Gender { get; set; }
 
         public int MaxCheckUpPatient { get; set; }
+
+        public int Adminid { get; set; }
     }
 }

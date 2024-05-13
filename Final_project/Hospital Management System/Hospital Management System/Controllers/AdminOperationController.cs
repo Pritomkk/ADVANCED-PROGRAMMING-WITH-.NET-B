@@ -17,7 +17,7 @@ namespace Hospital_Management_System.Controllers
         [LogInCheck]
         [HttpPost]
         [Route("api/assignDoctor/{Dep_Id}")]
-        public HttpResponseMessage Add_Doctor(int Dep_Id,DoctorDTO obj)
+        public HttpResponseMessage Add_Doctor(int Dep_Id, DoctorDTO obj)
         {
             try
             {
@@ -28,7 +28,7 @@ namespace Hospital_Management_System.Controllers
                     return Request.CreateResponse(HttpStatusCode.Unauthorized, "Authorization header is missing.");
                 }
                 string token = authHeader.Replace("Bearer ", "");
-                var data = DoctorService.AddByAdmin(Dep_Id,token,obj);
+                var data = DoctorService.AddByAdmin(Dep_Id, token, obj);
                 return Request.CreateResponse(HttpStatusCode.OK, data);
             }
             catch (Exception ex)
@@ -42,6 +42,107 @@ namespace Hospital_Management_System.Controllers
         [Route("api/CreateDepartment")]
         public HttpResponseMessage CreateDepartmentBYAdmin(DepartmentDTO CreateDepDto)
         {
+           
+
+            try
+            {
+                var authHeader = Request.Headers.GetValues("Authorization").FirstOrDefault();
+
+                if (string.IsNullOrEmpty(authHeader))
+                {
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized, "Authorization header is missing.");
+                }
+
+                string token = authHeader.Replace("Bearer ", "");
+                var DepInfo = DepartmentService.AddByAdmin(token, CreateDepDto);
+
+                if (DepInfo != null)
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.OK, DepInfo);
+                }
+                else
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Admin information not found or invalid token.");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+
+
+
+
+
+        }
+
+        [HttpGet]
+        [Route("api/SearchDoctor/{doctorId}")]
+        public HttpResponseMessage searchDoctor(int doctorId)
+        {
+
+
+            try
+            {
+                var docInfo = DoctorService.Search(doctorId);
+
+                if (docInfo != null)
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.OK, docInfo);
+                }
+                else
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Not found the Doctor");
+                }
+
+            }
+            
+              catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+
+        [HttpDelete]
+        [Route("api/deleteDoctorInfo/{doctorId}")]
+        public HttpResponseMessage deletedoctorInfo(int doctorId)
+        { 
+
+            try
+            {
+                var doctorInfo = DoctorService.Delete(doctorId);
+
+                if (doctorInfo)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Deleted successfully" });
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "Token not found or already expired" });
+                }
+
+            }
+
+
+              catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+
+
+        }
+
+        [LogInCheck]
+        [HttpPost]
+        [Route("api/AdmitPaitent")]
+        public HttpResponseMessage AdmitPaitent(PaitentDTO obj)
+        {
             var authHeader = Request.Headers.GetValues("Authorization").FirstOrDefault();
 
             if (string.IsNullOrEmpty(authHeader))
@@ -50,12 +151,12 @@ namespace Hospital_Management_System.Controllers
             }
 
             string token = authHeader.Replace("Bearer ", "");
-            var DepInfo = DepartmentService.AddByAdmin(token,CreateDepDto);
+            var AdmitPaitentInfo = PaitentService.AddByAdmin(token, obj);
 
-            if (DepInfo != null)
+            if (AdmitPaitentInfo != null)
             {
 
-                return Request.CreateResponse(HttpStatusCode.OK, DepInfo);
+                return Request.CreateResponse(HttpStatusCode.OK, AdmitPaitentInfo);
             }
             else
             {
@@ -64,12 +165,133 @@ namespace Hospital_Management_System.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("api/SearchDoctor/{doctorId}")]
-        public HttpResponseMessage searchDoctor(int doctorId)
+        [LogInCheck]
+        [HttpPost]
+        [Route("api/dischargePaitent/{PaitentID}")]
+        public HttpResponseMessage dischargePaitent(int PaitentID, dischargePaitentDTO obj)
         {
-            
-            var docInfo = DoctorService.Search(doctorId);
+            try
+            {
+                var authHeader = Request.Headers.GetValues("Authorization").FirstOrDefault();
+
+                if (string.IsNullOrEmpty(authHeader))
+                {
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized, "Authorization header is missing.");
+                }
+                string token = authHeader.Replace("Bearer ", "");
+                var data = PaitentService.DischargePaitent(PaitentID, obj);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+
+
+        [HttpGet]
+        [Route("api/SearchPaitent/{PaitentId}")]
+        public HttpResponseMessage searchPaitent(int PaitentId)
+        {
+   
+
+            try
+            {
+                var Info = PaitentService.Search(PaitentId);
+
+                if (Info != null)
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.OK, Info);
+                }
+                else
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Not found the paitent");
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+
+        }
+
+
+        [HttpDelete]
+        [Route("api/deletePaitentInfo/{paitentId}")]
+        public HttpResponseMessage deletePaitentInfo(int paitentId)
+        {
+
+            var paitentInfo = PaitentService.Delete(paitentId);
+
+            if (paitentInfo)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Deleted successfully" });
+            }
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "Paitent not found" });
+            }
+
+
+        }
+
+
+        [LogInCheck]
+        [HttpPost]
+        [Route("api/Appionment/{patientId}/{doctorId}")]
+        public HttpResponseMessage AppionmentDoctor(int patientId, int doctorId, AppionmentDTO appionmentDTO)
+        {
+            try
+            {
+                var authHeader = Request.Headers.GetValues("Authorization").FirstOrDefault();
+
+                if (string.IsNullOrEmpty(authHeader))
+                {
+                    return Request.CreateResponse(HttpStatusCode.Unauthorized, "Authorization header is missing.");
+                }
+                string token = authHeader.Replace("Bearer ", "");
+                var data = AppionmentService.AppionmentDoctor(token,patientId,doctorId,appionmentDTO);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+
+
+        [HttpDelete]
+        [Route("api/deleteAppionment/{AppionmentID}")]
+        public HttpResponseMessage deleteAppionment(int AppionmentID)
+        {
+
+            var paitentInfo = AppionmentService.Delete(AppionmentID);
+
+            if (paitentInfo)
+            {
+                return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Deleted successfully" });
+            }
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "Token not found or already expired" });
+            }
+
+
+        }
+
+
+        [HttpGet]
+        [Route("api/SearchAppionment/{AppionmentID}")]
+        public HttpResponseMessage searchAppionment(int AppionmentID)
+        {
+
+            var docInfo = AppionmentService.Search(AppionmentID);
 
             if (docInfo != null)
             {
@@ -79,36 +301,181 @@ namespace Hospital_Management_System.Controllers
             else
             {
 
-                return Request.CreateResponse(HttpStatusCode.NotFound, "Not found the Doctor");
+                return Request.CreateResponse(HttpStatusCode.NotFound, "Not found the paitent");
             }
         }
 
 
+
+
+        [HttpGet]
+        [Route("api/CheckdoctorAppionment/{doctorId}")]
+        public HttpResponseMessage GetDoctorAppointments(int doctorId)
+        {
+            
+
+
+            try
+            {
+                var appointmentService = new AppionmentService();
+
+                var doctorAppointments = appointmentService.DoctorAppionment(doctorId);
+
+                if (doctorAppointments.Count > 0)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, doctorAppointments);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound);
+                }
+
+            }
+
+            catch (Exception ex)
+            {
+
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+
+        [HttpPost]
+        [Route("api/CancelAppointment/{patientId}")]
+        public HttpResponseMessage CancelAppointment(int patientId, cancelAppionmentDTO obj)
+        {
+            try
+            { 
+                var canceledAppointmentDTO = AppionmentService.cancelAppionment(patientId, obj);
+
+                if (canceledAppointmentDTO != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, canceledAppointmentDTO);
+                }
+                else
+                {
+
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Failed to cancel appointment.");
+                }
+            }
+            catch (Exception ex)
+            {
+         
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+        [LogInCheck] 
+        [HttpPost]
+        [Route("api/InventoryAdd")]
+        public HttpResponseMessage AddInventory(InventoryDTO obj)
+        {
+            var authHeader = Request.Headers.GetValues("Authorization").FirstOrDefault();
+
+            if (string.IsNullOrEmpty(authHeader))
+            {
+                return Request.CreateResponse(HttpStatusCode.Unauthorized, "Authorization header is missing.");
+            }
+
+            string token = authHeader.Replace("Bearer ", "");
+
+            try
+            {
+                var Inven_Info = InventoryService.AddInventory(token, obj);
+
+                if (Inven_Info != null)
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, "Successfully Added New Inventory");
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Admin information not found or invalid token.");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        [Route("api/allInventory")]
+        public HttpResponseMessage AllInventory()
+        {
+            try
+            {
+                var inventoryService = new InventoryService();
+
+                var inventoryInfo = inventoryService.AllInventoryinfo();
+
+                if (inventoryInfo != null && inventoryInfo.Count > 0) 
+                {
+                    return Request.CreateResponse(HttpStatusCode.OK, inventoryInfo);
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "No inventory found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                
+
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+        }
+
+
+
         [HttpDelete]
-        [Route("api/deleteDoctorInfo/{doctorId}")]
-        public HttpResponseMessage deletedoctorInfo(int doctorId)
+        [Route("api/deleteInventory/{InventoryId}")]
+        public HttpResponseMessage deleteInventoryInfo(int InventoryId)
         {
 
-            var doctorInfo = DoctorService.Delete(doctorId);
+            var InvenInfo = InventoryService.Delete(InventoryId);
 
-            if (doctorInfo)
+            if (InvenInfo)
             {
                 return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Deleted successfully" });
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "Token not found or already expired" });
+                return Request.CreateResponse(HttpStatusCode.NotFound, new { Message = "Inventory Not found give Correct Id" });
             }
-        
-               
+
+
         }
 
+        [HttpGet]
+        [Route("api/BillingInfo/{InventoryId}")]
+        public HttpResponseMessage BillingInfo(int InventoryId)
+        {
 
 
+            try
+            {
+                var InventoryInfo = InventoryService.BillingInfo(InventoryId);
 
+                if (InventoryInfo != null)
+                {
 
+                    return Request.CreateResponse(HttpStatusCode.OK, InventoryInfo);
+                }
+                else
+                {
 
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "Not found ");
+                }
 
+            }
+
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+
+        }
 
 
 

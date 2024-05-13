@@ -20,6 +20,7 @@ namespace DAL.Models
         [Required]
         [StringLength(20)]
         public string Email { get; set; }
+
         [Required]
         [StringLength(20)]
         public string Phone { get; set; }
@@ -39,14 +40,13 @@ namespace DAL.Models
         public int DepId { get; set; }
         public virtual Department Department { get; set; }
 
-
         public virtual ICollection<Appointment> Appointments { get; set; }
 
         public doctor()
         {
             Appointments = new List<Appointment>();
-            Department = new Department();
         }
+
     }
 
 }

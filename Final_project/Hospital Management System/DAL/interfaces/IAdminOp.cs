@@ -11,7 +11,8 @@ namespace DAL.interfaces
        
 
             RET AddbyAdmin(ID id, RET obj);
-            RET AddByAdminDep(Type Tokenkey,ID id,RET obj);
+             RET dischargebyAdmin(Type id , RET obj);
+             RET AddByAdminDep(Type Tokenkey,ID id,RET obj);
 
              RET updateOperation(Type Tokenkey, ID id, RET obj);
 

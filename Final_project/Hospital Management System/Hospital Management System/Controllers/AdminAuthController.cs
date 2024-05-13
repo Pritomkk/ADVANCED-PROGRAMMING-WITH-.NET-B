@@ -56,7 +56,7 @@ namespace Hospital_Management_System.Controllers
                     {
                         return Request.CreateResponse(HttpStatusCode.NotFound);
                     }
-                    return Request.CreateResponse(HttpStatusCode.OK, new { UpdatedAdmin = updatedAdminDTO });
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Admin Profile Update Sucefully"});
                 }
                 else
                 {

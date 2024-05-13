@@ -48,7 +48,7 @@
     <Compile Include="Admin_Auth_Service\AdminCrudService.cs" />
     <Compile Include="Admin_Auth_Service\AdminSignUpService.cs" />
     <Compile Include="Admin_Auth_Service\AuthService.cs" />
-    <Compile Include="Admin_Operation_service\BillingService.cs" />
+    <Compile Include="Admin_Operation_service\AppionmentService.cs" />
     <Compile Include="Admin_Operation_service\DoctorService.cs" />
     <Compile Include="Admin_Operation_service\DepartmentService.cs" />
     <Compile Include="Admin_Operation_service\InventoryService.cs" />
@@ -58,6 +58,8 @@
     <Compile Include="DTOS\AppionmentDTO.cs" />
     <Compile Include="DTOS\DepartmentDTO.cs" />
     <Compile Include="DTOS\DoctorDTO.cs" />
+    <Compile Include="DTOS\InventoryDTO.cs" />
+    <Compile Include="DTOS\PaitentDTO.cs" />
     <Compile Include="DTOS\TokenDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace DAL.Repository
 {
-    internal class DoctorRepo :Repository, IRepo<doctor,int, doctor>,IAdminOp<int,string, doctor>
+    internal class PatientRepo : Repository, IRepo<Patient, int, Patient>, IAdminOp<int, string, Patient>
     {
-        public doctor Create(doctor obj)
+        public Patient Create(Patient obj)
         {
-            db.doctors.Add(obj);
+            db.Patients.Add(obj);
             if (db.SaveChanges() > 0) return obj;
             return null;
         }
@@ -23,7 +23,7 @@ namespace DAL.Repository
             var ex = Read(id);
             if (ex != null)
             {
-                db.doctors.Remove(ex);
+                db.Patients.Remove(ex);
                 return db.SaveChanges() > 0;
             }
             else
@@ -32,36 +32,31 @@ namespace DAL.Repository
                 return false;
             }
         }
-        public List<doctor> Read()
+        public List<Patient> Read()
         {
-            return db.doctors.ToList();
+            return db.Patients.ToList();
         }
 
-        public doctor Read(int id)
+        public Patient Read(int id)
         {
-            return db.doctors.Find(id);
+            return db.Patients.Find(id);
         }
 
-        public doctor Update(doctor obj)
+        public Patient Update(Patient obj)
         {
-            var ex = Read(obj.DoctorId);
+            var ex = Read(obj.PatientId);
             db.Entry(ex).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0) return obj;
             return null;
         }
-      
-        public doctor UpdateByToken(int id ,doctor obj)
+
+        public Patient UpdateByToken(int id, Patient obj)
         {
             return null;
         }
-        public doctor AddbyAdmin(string TokenKey, doctor updateDocr)
-        {
-            
 
-           throw new NotImplementedException();
-        }
 
-        public doctor AddByAdminDep(int DepId, string TokenKey, doctor obj)
+        public Patient AddbyAdmin(string TokenKey, Patient obj)
         {
             var tokenEntity = db.Tokens.FirstOrDefault(t => t.TokenKey.Equals(TokenKey));
 
@@ -72,7 +67,6 @@ namespace DAL.Repository
                 if (adminEntity != null)
                 {
                     obj.AdminId = adminEntity.AdminId;
-                    obj.DepId = DepId;
 
                     var validationResults = new List<ValidationResult>();
                     var context = new ValidationContext(obj, serviceProvider: null, items: null);
@@ -80,7 +74,6 @@ namespace DAL.Repository
 
                     if (!isValid)
                     {
-                        // Log or handle validation errors
                         foreach (var validationResult in validationResults)
                         {
                             Console.WriteLine(validationResult.ErrorMessage);
@@ -89,7 +82,7 @@ namespace DAL.Repository
                         throw new Exception("Validation failed. See validation errors for more details.");
                     }
 
-                    db.doctors.Add(obj);
+                    db.Patients.Add(obj);
                     if (db.SaveChanges() > 0) return obj;
                     return null;
                 }
@@ -104,16 +97,45 @@ namespace DAL.Repository
             }
         }
 
-
-        public doctor updateOperation(int Depid, string TokeyKey, doctor obj)
+        public Patient AddByAdminDep(int DepId, string TokenKey, Patient obj)
         {
             throw new NotImplementedException();
         }
 
-        public doctor dischargebyAdmin(int Type, doctor obj)
+        public Patient updateOperation(int Depid, string TokeyKey, Patient obj)
         {
             throw new NotImplementedException();
         }
+
+        public Patient dischargebyAdmin(int dischargeid, Patient dischargeobj)
+        {
+            var patient = db.Patients.FirstOrDefault(p => p.PatientId == dischargeid);
+
+            if (patient != null)
+            {
+  
+                patient.Status = dischargeobj.Status;
+                patient.DischargeDate = dischargeobj.DischargeDate;
+
+                var validationResults = new List<ValidationResult>();
+                var context = new ValidationContext(patient, serviceProvider: null, items: null);
+                bool isValid = Validator.TryValidateObject(patient, context, validationResults, validateAllProperties: true);
+
+                if (!isValid)
+                {
+                    // If validation fails, extract error messages and throw an exception
+                    var errorMessages = validationResults.Select(vr => vr.ErrorMessage);
+                    throw new Exception($"Validation failed: {string.Join("; ", errorMessages)}");
+                }
+                db.SaveChanges();
+
+                return patient;
+            }
+            else
+            {
+                throw new Exception("Patient with the specified ID not found.");
+            }
+        }
+
     }
 }
-

@@ -22,4 +22,11 @@ namespace BLL.DTOS
         [Required]
         public int PaitentAppointmentSerial { get; set; }
     }
+
+    public class cancelAppionmentDTO
+    {
+        [Required]
+        public string AppointmentStatus { get; set; }
+
+    }
 }

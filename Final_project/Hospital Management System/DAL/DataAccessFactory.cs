@@ -47,5 +47,52 @@ namespace DAL
         {
             return new DepartmentRepo();
         }
+
+        public static IRepo<Patient, int, Patient> PaitentData()
+        {
+            return new PatientRepo();
+        }
+
+        public static IAdminOp<int, string, Patient> Admin_Op_PaitentData()
+        {
+            return new PatientRepo();
+        }
+
+
+        public static IRepo<Appointment, int, Appointment> AppionmentData()
+        {
+            return new AppionmentRepo();
+        }
+
+        public static IAppionment<string,int,int ,Appointment> Admin_Op_AppionmentData()
+        {
+            return new AppionmentRepo();
+        }
+
+        public static IDOctorAppionment<int,doctor,Patient, Appointment> doc_AppionmentData()
+        {
+            return new AppionmentRepo();
+        }
+        public static IAdminOp<int,string,Appointment> dischargeAppionment()
+        {
+            return new AppionmentRepo();
+        }
+
+
+        public static IRepo<Inventory, int, Inventory> InventoryData()
+        {
+            return new InventoryRepo();
+        }
+
+        public static IAdminOp<int, string, Inventory> Admin_Op_InventoryData()
+        {
+            return new InventoryRepo();
+        }
+        public static IInventory<int,Inventory> Admin_Op_BillingData()
+        {
+            return new InventoryRepo();
+        }
+
+
     }
 }

@@ -51,7 +51,7 @@ namespace DAL.Repository
             }
             else
             {
-                // Token not found with the provided TokenKey
+             
                 throw new Exception("Token not found.");
             }
         }
@@ -63,20 +63,32 @@ namespace DAL.Repository
 
         public Admin Read(string TokenKey)
         {
-            var tokenEntity = db.Tokens.FirstOrDefault(t => t.TokenKey.Equals(TokenKey));
-
-            if (tokenEntity != null)
+            try
             {
-                var adminEntity = db.Admins.FirstOrDefault(a => a.AdminId.Equals(tokenEntity.AdminId));
+                var tokenEntity = db.Tokens.FirstOrDefault(t => t.TokenKey.Equals(TokenKey));
 
-                return adminEntity;
+                if (tokenEntity != null)
+                {
+                    var adminEntity = db.Admins.FirstOrDefault(a => a.AdminId.Equals(tokenEntity.AdminId));
+
+                    return adminEntity;
+                }
+                else
+                {
+                    return null;
+                }
             }
-            else
+            catch (System.Data.Entity.Core.EntityCommandExecutionException ex)
             {
-                
+               
+                Console.WriteLine("An error occurred while executing the command: " + ex.Message);
+                Console.WriteLine("Inner Exception: " + ex.InnerException?.Message);
+
+                // Handle the exception gracefully, return null or throw a custom exception
                 return null;
             }
         }
+
 
 
         public Admin Update(Admin obj)

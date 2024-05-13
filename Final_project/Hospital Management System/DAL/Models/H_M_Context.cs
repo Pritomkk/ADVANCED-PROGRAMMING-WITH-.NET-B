@@ -15,6 +15,7 @@ namespace DAL.Models
         public DbSet<Token>Tokens { get; set; }
         public DbSet<Department> Departments { get; set; }
         public DbSet<Patient> Patients { get; set; }
+        public DbSet<Inventory> Inventories {get;set;}
 
     }
 }

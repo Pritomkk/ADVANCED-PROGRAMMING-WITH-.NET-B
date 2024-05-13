@@ -44,13 +44,16 @@ namespace DAL.Models
 
         public virtual ICollection<Patient> Patients { get; set; }
 
+        public virtual ICollection<Inventory> Inventorys { get; set; }
+
         public Admin()
         {
             Tokens = new List<Token>();
             Doctors = new List<doctor>();
             Appointments = new List<Appointment>();
             Departments = new List<Department>();
-            Patients= new List<Patient>();      
+            Patients= new List<Patient>();
+            Inventorys= new List<Inventory>();
         }
     }
 }

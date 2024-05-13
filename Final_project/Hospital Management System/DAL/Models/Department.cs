@@ -24,12 +24,11 @@ namespace DAL.Models
         public int AdminId { get; set; }
         public virtual Admin Admin { get; set; }
 
-        public virtual ICollection<doctor> doctors { get; set; }
+        public virtual ICollection<doctor> Doctors { get; set; }
 
         public Department()
         {
-            doctors = new List<doctor>();
-            
+            Doctors = new List<doctor>();
         }
     }
 }
